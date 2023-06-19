@@ -5,15 +5,11 @@ import CoreMotion
 ///
 ///  Discussion:
 ///  - The WatchShaker object is your entry point to the shake service.
-//@available(iOS 15.0, macOS 12.0, watchOS 8.0, *)
 @available(iOS 15.0, *)
 @available(macOS 12.0, *)@available(macOS, unavailable)
 @available(tvOS, unavailable)
 @available(watchOS 8.0, *)
 
-//@available(macOS 12.0, *)@available(macOS, unavailable)
-//@available(tvOS 14.0, *)@available(tvOS, unavailable)
-//@available(watchOS 7.0, *)@available(watchOS, unavailable)
 public class WatchShaker : NSObject, ObservableObject
 {
     public var delegate: WatchShakerDelegate?
